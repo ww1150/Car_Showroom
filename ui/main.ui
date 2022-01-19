@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>MainWindow</class>
+    <widget class="QMainWindow" name="MainWindow">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>741</width>
+                <height>524</height>
+            </rect>
+        </property>
+        <property name="windowTitle">
+            <string>MainWindow</string>
+        </property>
+        <widget class="QWidget" name="centralwidget">
+            <widget class="QWidget" name="verticalLayoutWidget_3">
+                <property name="geometry">
+                    <rect>
+                        <x>610</x>
+                        <y>20</y>
+                        <width>111</width>
+                        <height>31</height>
+                    </rect>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_3">
+                    <item>
+                        <widget class="QPushButton" name="saveButton">
+                            <property name="text">
+                                <string>Сохранить</string>
+                            </property>
+                        </widget>
+                    </item>
+                </layout>
+            </widget>
+            <widget class="QWidget" name="horizontalLayoutWidget">
+                <property name="geometry">
+                    <rect>
+                        <x>20</x>
+                        <y>20</y>
+                        <width>581</width>
+                        <height>31</height>
+                    </rect>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout" stretch="1,8">
+                    <item>
+                        <widget class="QLabel" name="tableName">
+                            <property name="font">
+                                <font>
+                                    <pointsize>14</pointsize>
+                                    <bold>false</bold>
+                                </font>
+                            </property>
+                            <property name="text">
+                                <string>Таблица:</string>
+                            </property>
+                            <property name="alignment">
+                                <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                            </property>
+                        </widget>
+                    </item>
+                    <item>
+                        <widget class="QComboBox" name="tableSelect">
+                            <property name="toolTip">
+                                <string/>
+                            </property>
+                            <property name="placeholderText">
+                                <string>Выберите таблицу</string>
+                            </property>
+                        </widget>
+                    </item>
+                </layout>
+            </widget>
+            <widget class="QWidget" name="verticalLayoutWidget_2">
+                <property name="geometry">
+                    <rect>
+                        <x>610</x>
+                        <y>430</y>
+                        <width>111</width>
+                        <height>31</height>
+                    </rect>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_2">
+                    <item>
+                        <widget class="QPushButton" name="updateButton">
+                            <property name="text">
+                                <string>Обновить</string>
+                            </property>
+                        </widget>
+                    </item>
+                </layout>
+            </widget>
+            <widget class="QTableWidget" name="tableWidget">
+                <property name="geometry">
+                    <rect>
+                        <x>20</x>
+                        <y>50</y>
+                        <width>581</width>
+                        <height>411</height>
+                    </rect>
+                </property>
+            </widget>
+            <widget class="QWidget" name="verticalLayoutWidget">
+                <property name="geometry">
+                    <rect>
+                        <x>610</x>
+                        <y>60</y>
+                        <width>111</width>
+                        <height>71</height>
+                    </rect>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout">
+                    <item>
+                        <widget class="QPushButton" name="addButton">
+                            <property name="text">
+                                <string>Добавить</string>
+                            </property>
+                        </widget>
+                    </item>
+                    <item>
+                        <widget class="QPushButton" name="removeButton">
+                            <property name="text">
+                                <string>Удалить</string>
+                            </property>
+                        </widget>
+                    </item>
+                </layout>
+            </widget>
+        </widget>
+        <widget class="QMenuBar" name="menubar">
+            <property name="geometry">
+                <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>741</width>
+                    <height>22</height>
+                </rect>
+            </property>
+        </widget>
+        <widget class="QStatusBar" name="statusbar"/>
+    </widget>
+    <resources/>
+    <connections/>
+</ui>
